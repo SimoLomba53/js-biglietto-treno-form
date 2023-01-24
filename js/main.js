@@ -1,18 +1,17 @@
 
-const kmnumber = document.getElementById("km");
-console.log('Totale Kilometri:', kmnumber);
-//ETA'
-const eta = document.getElementById("eta");
-console.log('Anni:', eta);
 //BOTTONE GENERA
 const buttongenera = document.getElementById("genera");
 console.log('Bottone genera', buttongenera);
-//PREZZO SENZA SCONTO
-
 
 buttongenera.addEventListener(
     'click',
     function(click){
+    const kmnumber = document.getElementById("km").value;
+    console.log('Totale Kilometri:', kmnumber);
+    //ETA'
+    const eta = document.getElementById("eta").value;
+    console.log('Anni:', eta);
+    //PREZZO NOSALE   
     let pricenosale = (kmnumber * 0.21);
     console.log('Prezzo senza sconto:', pricenosale)
     //SCONTI
