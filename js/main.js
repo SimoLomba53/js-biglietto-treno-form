@@ -4,6 +4,9 @@ console.log('Totale Kilometri:', kmnumber);
 //ETA'
 const eta = document.getElementById("eta");
 console.log('Anni:', eta);
+//BOTTONE GENERA
+const buttongenera = document.getElementById("genera");
+console.log('Bottone genera', buttongenera);
 //PREZZO SENZA SCONTO
 let pricenosale = (kmnumber * 0.21);
 console.log('Prezzo senza sconto:', pricenosale)
