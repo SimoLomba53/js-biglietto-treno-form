@@ -10,8 +10,8 @@ console.log('Bottone genera', buttongenera);
 //PREZZO SENZA SCONTO
 
 
-buttongenera.addEventListener{
-    "click"
+buttongenera.addEventListener(
+    'click',
     function(click){
     let pricenosale = (kmnumber * 0.21);
     console.log('Prezzo senza sconto:', pricenosale)
@@ -35,4 +35,4 @@ buttongenera.addEventListener{
     const prezzofinito = document.getElementById('finalprice');
     prezzofinito.innerHTML = prezzofinale;
     }
-};
+);
