@@ -1,4 +1,5 @@
 
+
 //BOTTONE GENERA
 const buttongenera = document.getElementById("genera");
 console.log('Bottone genera', buttongenera);
@@ -33,5 +34,11 @@ buttongenera.addEventListener(
     console.log(prezzofinale);
     const prezzofinito = document.getElementById('finalprice');
     prezzofinito.innerHTML = prezzofinale;
+
+    //IMPORT NOME E COGNOME HTML
+    const namesurname = document.getElementById("nomeecognome").value;
+    console.log('Nome e Cognome', namesurname);
+    const nomepasseggero = document.getElementById("nomepass");
+    nomepasseggero.innerHTML = namesurname;
     }
 );
